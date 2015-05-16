@@ -1,0 +1,12 @@
+[submodule "message-java"]
+	path = message-java
+	url = git@github.com:magnetsystems/message-java.git
+[submodule "message-ios"]
+	path = message-ios
+	url = git@github.com:magnetsystems/message-ios.git
+[submodule "magnet-openfire"]
+	path = magnet-openfire
+	url = git@github.com:magnetsystems/magnet-openfire.git
+[submodule "magnet-smack"]
+	path = magnet-smack
+	url = git@github.com:magnetsystems/magnet-smack.git
