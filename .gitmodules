@@ -10,3 +10,9 @@
 [submodule "magnet-smack"]
 	path = magnet-smack
 	url = git@github.com:magnetsystems/magnet-smack.git
+[submodule "magnet-asmack"]
+	path = magnet-asmack
+	url = git@github.com:magnetsystems/magnet-asmack.git
+[submodule "message-android"]
+	path = message-android
+	url = git@github.com:magnetsystems/message-android.git
