@@ -10,14 +10,15 @@
   May 15, 2015
   -------------------------------------------------------------------------------
 
-  For installation or troubleshooting information, refer to ‘troubleshooting’ in this distribution or 
-  Magnet Message Developer Guide located on the web at https://www.magnet.com/developer/magnet-message/
-
   This repo contains git submodules to the various components of Magnet Message:
 
   message-java: Messaging server and Android client source code
   message-ios: iOS client source code
+  message-android: Empty directory; contains README that points to directory in message-java 
 
+
+  For installation or troubleshooting information, refer to ‘troubleshooting’ in this distribution or 
+  Magnet Message Developer Guide located on the web at https://www.magnet.com/developer/magnet-message/
 
 
   What is Magnet Message?
