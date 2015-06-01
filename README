@@ -1,29 +1,24 @@
-
-
-  README
-
- -------------------------------------------------------------------------------
-  Magnet Message
-  version number:
+---
+#Magnet Message
+Version number:
   1.0.1
 
-  May 15, 2015
-  -------------------------------------------------------------------------------
+May 15, 2015
+---
 
   This repo contains git submodules to the various components of Magnet Message:
 
-  message-java: Messaging server and Android client source code
-  message-ios: iOS client source code
-  message-android: Empty directory; contains README that points to directory in message-java 
+  1. message-java: Messaging server and Android client source code
+  2. message-ios: iOS client source code
+  3. message-android: Empty directory; contains README that points to directory in message-java 
 
 
   For installation or troubleshooting information, refer to ‘troubleshooting’ in this distribution or 
   Magnet Message Developer Guide located on the web at https://www.magnet.com/developer/magnet-message/
 
 
-  What is Magnet Message?
-  =============================================
-
+##What is Magnet Message?
+---
   Magnet Message is full-featured, open source mobile messaging software that allows developers to easily add messaging functionality to their mobile applications. Magnet Message is delivered as a ready-to-run server and native mobile SDKs  for iOS and Android. Magnet Message is deployable in the cloud or on-premise and easily integrates with any app, existing system, or environment. For ease of administration, Magnet Message uses a web interface for configuration and management of the messaging server and reporting of in-app message and push notification delivery status.
 
   Highlights:
@@ -37,8 +32,8 @@
 
 For more details on Magnet Message, please visit: https://www.magnet.com/developer/magnet-message/
 
-  Requirements
-  ============================================
+##Requirements
+---
   Magnet Message server requires:
    - JDK v6 or higher
    - MySQL v5.6 or higher
@@ -48,8 +43,8 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
    Xcode: 6.3 or higher
 
 
-  Features
-  ============================================
+##Features
+---
   - Push notifications via Google Cloud Messaging (GCM) and Apple Push Notification Service (APNS)
   - In-app messaging (server to mobile and mobile to server)
   - Mobile to mobile messaging
@@ -63,8 +58,8 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
   - Administration web UI
 
 
-  Known Issues
-  ============================================
+##Known Issues
+---
  - If there are port conflicts, installation may be blocked. To fix, free up the ports or assign a new port number for Magnet Message. Refer to instructions in the ‘troubleshooting’ doc provided in the distribution for details. 
  - In some situations, re-installing Magnet Message on a system may fail if the processes on the previous installation were not stopped properly prior to deletion. To fix, STOP the Magnet Message server. Refer to instructions in the ‘troubleshooting’ doc provided in the distribution for details.
  - In some situations, install may fail if the database is not running. Verify that MySQL is installed and running before installing Magnet Message on the system.    
@@ -74,21 +69,39 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
  - In some situations, ”Path too long" error is shown when extracting mmx-standalone-dist-win.zip on Windows environments. This occurs when server install runs into the 260 character path name limit affecting all Windows operating systems when extracting the mmx-standalone-dist-win.zip due to the nested dependency structure of node.js. To fix this issue, extract the zip file into directories with a shorter path. 
 
 
-  Ports
-  ============================================
+##Ports
+---
   For a list of ports or to change the default ports refer to ‘troubleshooting’ in this distribution.
 
 
-  View Magnet Message Web Interface
-  ============================================
+##View Magnet Message Web Interface
+---
   Messaging: http://127.0.0.1:3000/ (3000 is the default port number)
 
   Administration: http://127.0.0.1:3000/admin (3000 is the default port number)
 
 
 
-  Uninstall Magnet Message
-  ============================================
+##How to start, stop, or restart Magnet Message
+---
+
+  IMPORTANT: You should always start and stop the server with the included batch script (mmx.bat).
+
+  Start
+  Use a Command Prompt and cd to "mmx-standalone-dist-win" in the directory that you have unzipped the zip file to.
+  Execute ".\mmx.bat start".
+
+  Stop
+  Use a Command Prompt and cd to "mmx-standalone-dist-win" in the directory that you have unzipped the zip file to.
+  Execute ".\mmx.bat stop".
+
+  Restart
+  Use a Command Prompt and cd to "mmx-standalone-dist-win" in the directory that you have unzipped the zip file to.
+  Execute ".\mmx.bat restart".
+
+
+
+##Uninstall Magnet Message
 
    1. Stop the server (for steps, see ‘troubleshooting’ doc).
    2. Delete the Magnet Message home: ~/mmx-standalone-dist-<version>
@@ -96,16 +109,14 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
 
 
 
-  Documentation
-  ============================================
-
+##Documentation
+---
   Detailed documentation can be found at: https://www.magnet.com/developer/magnet-message/
   
 
 
-  Licensing
-  ============================================
-
+##Licensing
+---
   Magnet Message source code is governed under Apache version 2.0 license and it uses third party Open Source components that are governed under their own license terms. Refer to the following documents for details:
 
  - Apache version 2.0 license: see http://www.apache.org/licenses/LICENSE-2.0 or LICENSE.txt in this distribution
@@ -115,9 +126,8 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
 
 
 
-  Contact
-  ============================================
-
+##Contact
+---
    - If you want to be informed about new code releases, bug fixes, security fixes,
      general news and information about Magnet Message, or other products
      from Magnet Systems, please visit our Developer Community: https://www.magnet.com/developer/
