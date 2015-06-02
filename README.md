@@ -1,10 +1,8 @@
----
 #Magnet Message
 Version number:
   1.0.1
 
 May 15, 2015
----
 
   This repo contains git submodules to the various components of Magnet Message:
 
